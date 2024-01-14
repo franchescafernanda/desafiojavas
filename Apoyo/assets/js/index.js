@@ -1,8 +1,6 @@
-import propiedades_ventas from './ventas.js'
-// console.log('propiedades_ventas --->', propiedades_ventas);
+import propiedades_ventas from './propiedadesADL.js'
+import propiedades_alquiler from './propiedadesADL.js'
 
-import propiedades_alquiler from './alquiler.js'
-// console.log('propiedades_alquiler --->', propiedades_alquiler);
 
 
 const venta3 = propiedades_ventas.slice(1,4)
