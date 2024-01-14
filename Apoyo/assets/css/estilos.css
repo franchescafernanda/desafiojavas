@@ -1,0 +1,34 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    min-width: 120px;
+}
+
+.card img{
+    height: auto;
+    width: auto;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 20px 30px;
+}
+
+.restriction {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: baseline;
+}
